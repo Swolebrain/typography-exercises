@@ -139,6 +139,8 @@ section.main {
 section article{
     width:75%;
     float:right;
+    column-count:2;
+    column-gap:20px;
     -webkit-column-count:2;
     -webkit-column-gap:20px;
     -moz-column-count:2;
@@ -209,5 +211,4 @@ aside p{
 aside h3{
     padding-bottom:0.3em;
 }
-
 
